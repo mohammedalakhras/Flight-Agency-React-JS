@@ -1,0 +1,72 @@
+.body {
+  text-align: center;
+  background-image: url('./IMG_20230516_114730_362.jpg');
+  /* background-repeat: no-repeat; */
+  /* background-origin: inherit; */
+  background-size: 100% 100%;
+  color: rgba(255, 255, 255, 0.944);
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  padding-top: 100px;
+
+  /* margin: 200px 0px; */
+  /* margin: 10%; */
+}
+/* .bodyWithWidthmoreThan100vh{
+  text-align: center;
+  background-image: url('./IMG_20230516_114730_362.jpg');
+  /* background-repeat: no-repeat; */
+/* background-origin: inherit; */
+/* background-size: 100% 100%;
+  color: rgba(235, 231, 232, 0.944);
+  width: 100vw;
+  height: 100%; */
+/* margin: 10%; */
+/* }  */
+.table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+.h2 {
+  text-align: center;
+}
+.table {
+  /* margin-top: 100px; */
+  width: 100%;
+  border: 1px solid rgb(238, 119, 15);
+  text-align: center;
+  border-collapse: collapse;
+}
+.table :hover {
+  background-color: black;
+}
+
+.tr1 {
+  background: rgba(53, 35, 1, 0.6);
+}
+.tr2 {
+  background: rgb(241, 170, 99);
+}
+
+/* @media only screen and (max-width: 600px) {
+  .table th {
+    display: none;
+  }
+  .table td {
+    display: block;
+    border: none;
+  } */
+/* Add background color to every other row on small screens */
+/* .table tr:nth-child(even) {
+    background-color: transparent;
+  } */
+/* Add margin and padding to table cells on small screens */
+/* .table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+} */
